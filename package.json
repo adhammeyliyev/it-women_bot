@@ -1,22 +1,27 @@
 {
-	"name": "it-women_bot",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node index.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/AdhamMeyliyev/IT-women_bot.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"type": "commonjs",
-	"bugs": {
-		"url": "https://github.com/AdhamMeyliyev/IT-women_bot/issues"
-	},
-	"homepage": "https://github.com/AdhamMeyliyev/IT-women_bot#readme"
+  "name": "it-women_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for free IT courses for women",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdhamMeyliyev/IT-women_bot.git"
+  },
+  "keywords": ["telegram", "bot", "IT", "women", "courses"],
+  "author": "Adham Meyliyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdhamMeyliyev/IT-women_bot/issues"
+  },
+  "homepage": "https://github.com/AdhamMeyliyev/IT-women_bot#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "mongoose": "^7.5.0",
+    "telegraf": "^4.14.0"
+  }
 }
